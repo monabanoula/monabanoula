@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+}
+
+h1 {
+  margin: 40px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #11999E;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#11999E;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+  line-height: 2;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.profile{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me{
+  width: 40%;
+  margin: auto;
+}
+
+.conatact-message{
+  margin: 40px auto 60px;
+}
+
+hr{
+  border: 0.5rem dotted #EAF6F6;
+  border-bottom: none;
+  width: 6%;
+  margin: 100px auto;
+}
+
+.skills{
+  margin: 100px auto;
+}
+
+.pic{
+  width: 40%;
+}
+
+.skill-image1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.profession {
+  text-decoration: underline;
+}
+
+.btn {
+	background:linear-gradient(to bottom,  #11CDD4 5%, #2BC4AD 100%);
+	background-color:#11CDD4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:13px 32px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30E3CB 5%, #2BC4AD 100%);
+	background-color:#30E3CB;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
