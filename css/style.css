@@ -35,6 +35,8 @@ h2 {
   color:#11999E;
   font-weight: normal;
   padding-bottom: 10px;
+  position: inherit;
+  z-index: 1;
 }
 
 h3 {
@@ -112,14 +114,14 @@ hr{
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 150px;
+  right: 20%;
+  top: 17%;
 }
 
 .bottom-cloud {
   position: absolute;
-  bottom: 300px;
-  left: 300px;
+  bottom: 40%;
+  left: 20%;
 }
 
 .mountain{
